@@ -13,7 +13,7 @@ class Config:
     GOOGLE_ADS_CSV = 'data/csv/GeorgiaOnGoogleAds.csv'
 
     # MongoDB Configuration
-    MONGODB_URI = "mongodb://localhost:27017/"
+    MONGODB_URI = "mongodb+srv://puneetk:FZbUkcnfqaA1UMOU@cluster0.00kfw.mongodb.net/"
     MONGODB_DB = "demand_calculator"
     MONGODB_COLLECTION = "city_contributions"
     
