@@ -7,9 +7,12 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'your-secret-key'
     API_URL = os.environ.get('API_URL')
     
-    # Data file paths
+    # # Data file paths
     BLOCKS_SHAPEFILE = 'data/shapefiles/blocks/tl_2024_13_tabblock20.shp'
     PLACES_SHAPEFILE = 'data/shapefiles/places/tl_2024_13_place.shp'
+    
+    # BLOCKS_SHAPEFILE = 'data/shapefiles/blocks/tl_2024_13_tabblock20.shp'
+    # PLACES_SHAPEFILE = 'data/shapefiles/places_merged/merged.shp'
     GOOGLE_ADS_CSV = 'data/csv/GeorgiaOnGoogleAds.csv'
 
     # MongoDB Configuration

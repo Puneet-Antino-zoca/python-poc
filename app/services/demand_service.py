@@ -27,9 +27,23 @@ class DemandService:
             city_data = self.geo_service.process_circle_data(lat, lng, mapped_blocks, entity_id)
             
             # Save to MongoDB
-            self.mongo_service.save_city_data(city_data)
+            saved_ids = self.mongo_service.save_city_data(city_data)
             
-            return city_data            
+            filtered_city_data = [
+                {
+                    "_id": str(saved_id),
+                    "contribution_percentage": city["contribution_percentage"],
+                    "entity_id": city["entity_id"],
+                    "intersecting_city": city["intersecting_city"],
+                    "intersection_population_inside_circle": city["intersection_population_inside_circle"],
+                    "radius_miles": city["radius_miles"],
+                    "status": city["status"],
+                    "total_population": city["total_population"]
+                }
+                for saved_id, city in zip(saved_ids, city_data)
+            ]
+            
+            return filtered_city_data
         except Exception as e:
             logger.error(f"Error in calculate_demand: {str(e)}")
             raise Exception(f"Failed to calculate demand: {str(e)}")

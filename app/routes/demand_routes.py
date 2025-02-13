@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from app.services.demand_service import DemandService
 from app.utils.logger import logger
+from app.utils.serializers import serialize_mongo_doc
 
 demand_bp = Blueprint('demand', __name__)
 demand_service = DemandService()
@@ -23,7 +24,9 @@ def calculate_demand():
         # Calculate demand
         results = demand_service.calculate_demand(entity_id, lat, lng)
         
-        return jsonify(results)
+        # Serialize results before returning
+        serialized_results = serialize_mongo_doc(results)
+        return jsonify(serialized_results)
         
     except Exception as e:
         logger.error(f"Error in calculate_demand endpoint: {str(e)}")
