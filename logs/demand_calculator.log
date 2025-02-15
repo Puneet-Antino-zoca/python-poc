@@ -37,3 +37,58 @@
 2025-02-13 19:24:30,353 - demand_calculator - ERROR - Error saving to MongoDB: documents must be a non-empty list
 2025-02-13 19:24:30,353 - demand_calculator - ERROR - Error in calculate_demand: documents must be a non-empty list
 2025-02-13 19:24:30,353 - demand_calculator - ERROR - Error in calculate_demand endpoint: Failed to calculate demand: documents must be a non-empty list
+2025-02-14 12:22:27,640 - demand_calculator - DEBUG - Starting demand calculation for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:22:27,689 - demand_calculator - DEBUG - Starting spatial join of cities and blocks
+2025-02-14 12:22:28,336 - demand_calculator - DEBUG - Spatial join completed with 675 results
+2025-02-14 12:22:28,397 - demand_calculator - DEBUG - Creating circle for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:22:28,397 - demand_calculator - DEBUG - Creating circle at lat=33.749, lon=-84.388, radius=5
+2025-02-14 12:22:28,402 - demand_calculator - DEBUG - Circle created successfully
+2025-02-14 12:22:28,403 - demand_calculator - DEBUG - Starting block-circle intersection calculation
+2025-02-14 12:22:28,475 - demand_calculator - DEBUG - Intersection calculation completed for 5 blocks
+2025-02-14 12:22:28,475 - demand_calculator - DEBUG - Calculating city population using POPINT
+2025-02-14 12:22:28,479 - demand_calculator - DEBUG - Calculating city population using POP20
+2025-02-14 12:22:28,753 - demand_calculator - DEBUG - Successfully saved 5 city records
+2025-02-14 12:27:18,569 - demand_calculator - DEBUG - Starting demand calculation for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:27:18,570 - demand_calculator - DEBUG - Starting spatial join of cities and blocks
+2025-02-14 12:27:18,874 - demand_calculator - DEBUG - Spatial join completed with 675 results
+2025-02-14 12:27:18,926 - demand_calculator - DEBUG - Creating circle for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:27:18,926 - demand_calculator - DEBUG - Creating circle at lat=33.749, lon=-84.388, radius=5
+2025-02-14 12:27:18,928 - demand_calculator - DEBUG - Circle created successfully
+2025-02-14 12:27:18,929 - demand_calculator - DEBUG - Starting block-circle intersection calculation
+2025-02-14 12:27:18,996 - demand_calculator - DEBUG - Intersection calculation completed for 5 blocks
+2025-02-14 12:27:18,997 - demand_calculator - DEBUG - Calculating city population using POPINT
+2025-02-14 12:27:19,000 - demand_calculator - DEBUG - Calculating city population using POP20
+2025-02-14 12:27:19,049 - demand_calculator - DEBUG - Successfully saved 5 city records
+2025-02-14 12:37:00,251 - demand_calculator - DEBUG - Starting demand calculation for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:37:00,251 - demand_calculator - DEBUG - Starting spatial join of cities and blocks
+2025-02-14 12:37:00,667 - demand_calculator - DEBUG - Spatial join completed with 675 results
+2025-02-14 12:37:00,776 - demand_calculator - DEBUG - Creating circle for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:37:00,777 - demand_calculator - DEBUG - Creating circle at lat=33.749, lon=-84.388, radius=5
+2025-02-14 12:37:00,779 - demand_calculator - DEBUG - Circle created successfully
+2025-02-14 12:37:00,780 - demand_calculator - DEBUG - Starting block-circle intersection calculation
+2025-02-14 12:37:00,844 - demand_calculator - DEBUG - Intersection calculation completed for 5 blocks
+2025-02-14 12:37:00,844 - demand_calculator - DEBUG - Calculating city population using POPINT
+2025-02-14 12:37:00,845 - demand_calculator - DEBUG - Calculating city population using POP20
+2025-02-14 12:37:00,894 - demand_calculator - DEBUG - Successfully saved 5 city records
+2025-02-14 12:39:10,313 - demand_calculator - DEBUG - Starting demand calculation for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:39:10,313 - demand_calculator - DEBUG - Starting spatial join of cities and blocks
+2025-02-14 12:39:10,592 - demand_calculator - DEBUG - Spatial join completed with 675 results
+2025-02-14 12:39:10,638 - demand_calculator - DEBUG - Creating circle for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:39:10,638 - demand_calculator - DEBUG - Creating circle at lat=33.749, lon=-84.388, radius=5
+2025-02-14 12:39:10,640 - demand_calculator - DEBUG - Circle created successfully
+2025-02-14 12:39:10,641 - demand_calculator - DEBUG - Starting block-circle intersection calculation
+2025-02-14 12:39:10,708 - demand_calculator - DEBUG - Intersection calculation completed for 5 blocks
+2025-02-14 12:39:10,708 - demand_calculator - DEBUG - Calculating city population using POPINT
+2025-02-14 12:39:10,709 - demand_calculator - DEBUG - Calculating city population using POP20
+2025-02-14 12:39:10,755 - demand_calculator - DEBUG - Successfully saved 5 city records
+2025-02-14 12:43:57,262 - demand_calculator - DEBUG - Starting demand calculation for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:43:57,263 - demand_calculator - DEBUG - Starting spatial join of cities and blocks
+2025-02-14 12:43:57,576 - demand_calculator - DEBUG - Spatial join completed with 675 results
+2025-02-14 12:43:57,626 - demand_calculator - DEBUG - Creating circle for entity_id=d4041695-44d5-4e3e-9766-c9e25f0bedd2, lat=33.749, lng=-84.388
+2025-02-14 12:43:57,626 - demand_calculator - DEBUG - Creating circle at lat=33.749, lon=-84.388, radius=5
+2025-02-14 12:43:57,627 - demand_calculator - DEBUG - Circle created successfully
+2025-02-14 12:43:57,627 - demand_calculator - DEBUG - Starting block-circle intersection calculation
+2025-02-14 12:43:57,689 - demand_calculator - DEBUG - Intersection calculation completed for 5 blocks
+2025-02-14 12:43:57,689 - demand_calculator - DEBUG - Calculating city population using POPINT
+2025-02-14 12:43:57,691 - demand_calculator - DEBUG - Calculating city population using POP20
+2025-02-14 12:43:57,739 - demand_calculator - DEBUG - Successfully saved 5 city records
