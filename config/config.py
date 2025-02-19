@@ -17,7 +17,7 @@ class Config:
 
     # MongoDB Configuration
     MONGODB_URI = "mongodb+srv://puneetk:FZbUkcnfqaA1UMOU@cluster0.00kfw.mongodb.net/"
-    MONGODB_DB = "demand_calculator"
+    MONGODB_DB = "zoca_local"
     MONGODB_COLLECTION = "city_contributions"
     
     # Add any additional MongoDB-specific configs like:
